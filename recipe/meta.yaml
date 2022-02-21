@@ -20,7 +20,11 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - numpy
+    - pandas
     - geopandas
+    - shapely
+    - scipy
     - matplotlib-base
     - python >=3.6
 
