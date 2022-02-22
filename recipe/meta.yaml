@@ -1,5 +1,5 @@
 {% set name = "transbigdata" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 
 
 package:
@@ -8,17 +8,17 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/transbigdata-{{ version }}.tar.gz
-  sha256: 060fc114e9021bf7fdcc24258b57aa2bf7dd05303a3e54c10ca03d0e5c58d0d3
+  sha256: 61ae0f550d93e9aa8124475a4426400c99a5b089b8413da9dabe9fd85d26e43c
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - numpy
     - pandas
@@ -26,7 +26,7 @@ requirements:
     - shapely
     - scipy
     - matplotlib-base
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
