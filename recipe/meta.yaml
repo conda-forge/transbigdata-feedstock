@@ -1,5 +1,5 @@
 {% set name = "transbigdata" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/transbigdata-{{ version }}.tar.gz
-  sha256: f815fa4fba9235a69c6ea9ed28061ba0d164b2011900a4afbb4f0865776e53dc
+  sha256: 680043c167eb0027910e171416d3cfb6aa8358bc5f675c490ccb39b9344c1af8
   
 build:
   number: 0
