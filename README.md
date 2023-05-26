@@ -1,11 +1,11 @@
-About transbigdata
-==================
+About transbigdata-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/transbigdata-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ni1o1/transbigdata
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/transbigdata-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python package developed for transportation spatio-temporal big data processing and analysis.
 

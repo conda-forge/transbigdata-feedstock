@@ -1,5 +1,5 @@
 {% set name = "transbigdata" %}
-{% set version = "0.4.17" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/transbigdata-{{ version }}.tar.gz
-  sha256: 9479f854cf30dd022c1e0e526d38a546dc9c35f59ede0461fae32c4ca7b54485
+  sha256: 5586d90eeaf93a94cab946280218ef37db27c9098fd21bec020e22887c7cbcf9
 
 build:
   number: 0
@@ -27,6 +27,8 @@ requirements:
     - scipy
     - matplotlib-base
     - python >=3.6
+    - pykalman
+    - osmnx
 
 test:
   imports:
