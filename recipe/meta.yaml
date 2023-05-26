@@ -27,6 +27,8 @@ requirements:
     - scipy
     - matplotlib-base
     - python >=3.6
+    - pykalman
+    - osmnx
 
 test:
   imports:
